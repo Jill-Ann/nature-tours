@@ -4,16 +4,13 @@
   box-sizing: border-box;
 }
 
-/* To make image fit whole screen - from css tricks */
 html {
-  background: url(forest.jpg) no-repeat center center fixed;
+  background: url(../images/forest.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
-/* But the image is still not filling the screen completely. Why??? */
-
 
 body {
   font-family: helvetica, sans-serif;
@@ -46,9 +43,8 @@ nav a {
 }
 
 nav a:hover {
-  color: #DDD;
+  color: #ddd;
 }
-
 
 /* ---------title----------- */
 
@@ -57,11 +53,10 @@ nav a:hover {
   color: darkslategrey;
   top: 60px;
   left: 32%;
-  font-family: 'Bree Serif', serif;
+  font-family: "Bree Serif", serif;
   text-shadow: 1px 1px 1px black;
   font-size: 3.9em;
 }
-
 
 /* ----------form---------- */
 
@@ -77,13 +72,10 @@ nav a:hover {
   box-shadow: 4px 4px 4px black;
 }
 
-/* why do I get scrolling? */
-
 .form-container {
   position: relative;
   padding: 5px;
   margin-top: 10px;
-  /* border: 1px solid black; */
   left: 20px;
 }
 
@@ -93,7 +85,6 @@ textarea {
   margin-bottom: 6px;
   padding: 5px;
 }
-
 
 .submit {
   width: 100px;
@@ -108,9 +99,6 @@ textarea {
   position: relative;
   left: 65px;
 }
-
-/* how do I get the button (and things in general) exactly in the middle? */
-
 
 /* ------thank-you page------ */
 
